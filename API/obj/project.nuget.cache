@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wfa26NFwqZgnU4fSk6e9bYwqdDZ2kWX142Mi3MAE/vwQTCUhF/Z8ipBppu1dDzUq3b7pUphoyxK2c51JbdNZg==",
+  "dgSpecHash": "+QMAFJ1kdUqhwQ6S6Liu/+/KAmTQ7kN6To/Uuk4MdpLi60ov3/dj9o0v/Zw0KHM3fpWKS3LmQeXm3UuNs0nw8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\biblioVisualCSharp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wende\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\wende\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.21\\microsoft.data.sqlite.core.6.0.21.nupkg.sha512",

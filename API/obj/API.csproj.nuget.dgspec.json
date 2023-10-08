@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\API\\API.csproj": {}
+    "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\biblioVisualCSharp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\API\\API.csproj": {
+    "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\biblioVisualCSharp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\biblioVisualCSharp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\API\\API.csproj",
+        "projectPath": "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\biblioVisualCSharp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\API\\obj\\",
+        "outputPath": "C:\\Users\\wende\\OneDrive\\Área de Trabalho\\biblioteca\\biblioVisualCSharp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"
