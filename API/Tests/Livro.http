@@ -1,0 +1,30 @@
+### Criar um novo livro ###
+POST http://localhost:5000/api/livro/cadastrar
+Content-Type: application/json
+
+{
+  "Titulo": "Livro de Teste",
+  "Autor": "Autor de Teste",
+  "Editora": "Editora de Teste",
+  "DataPublicacao": "2023-01-01"
+}
+
+### Listar todos os livros ###
+GET http://localhost:5000/api/livro/listar
+
+### Buscar um livro por título ###
+GET http://localhost:5000/api/livro/buscar/Livro de Teste
+
+### Alterar um livro existente ###
+PUT http://localhost:5000/api/livro/alterar/1
+Content-Type: application/json
+
+{
+  "Titulo": "Livro Modificado",
+  "Autor": "Novo Autor",
+  "Editora": "Nova Editora",
+  "DataPublicacao": "2023-02-01"
+}
+
+### Deletar um livro ###
+DELETE http://localhost:5000/api/livro/deletar/1

@@ -1,0 +1,30 @@
+### Criar um novo empréstimo ###
+POST http://localhost:5000/api/emprestimo/cadastrar
+Content-Type: application/json
+
+{
+  "LivroId": 1,
+  "ClienteId": 1,
+  "DataEmprestimo": "2023-01-15",
+  "DataDevolucao": "2023-01-30"
+}
+
+### Listar todos os empréstimos ###
+GET http://localhost:5000/api/emprestimo/listar
+
+### Buscar um empréstimo por ID ###
+GET http://localhost:5000/api/emprestimo/buscar/1
+
+### Alterar um empréstimo existente ###
+PUT http://localhost:5000/api/emprestimo/alterar/1
+Content-Type: application/json
+
+{
+  "LivroId": 2,
+  "ClienteId": 2,
+  "DataEmprestimo": "2023-02-15",
+  "DataDevolucao": "2023-02-28"
+}
+
+### Deletar um empréstimo ###
+DELETE http://localhost:5000/api/emprestimo/deletar/1

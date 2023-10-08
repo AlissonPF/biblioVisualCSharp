@@ -1,0 +1,28 @@
+### Criar um novo cliente ###
+POST http://localhost:5000/api/cliente/cadastrar
+Content-Type: application/json
+
+{
+  "Nome": "Cliente de Teste",
+  "DataNascimento": "1990-01-01",
+  "Email": "cliente@teste.com"
+}
+
+### Listar todos os clientes ###
+GET http://localhost:5000/api/cliente/listar
+
+### Buscar um cliente por ID ###
+GET http://localhost:5000/api/cliente/buscar/1
+
+### Alterar um cliente existente ###
+PUT http://localhost:5000/api/cliente/alterar/1
+Content-Type: application/json
+
+{
+  "Nome": "Cliente Modificado",
+  "DataNascimento": "1995-02-01",
+  "Email": "novoemail@teste.com"
+}
+
+### Deletar um cliente ###
+DELETE http://localhost:5000/api/cliente/deletar/1
